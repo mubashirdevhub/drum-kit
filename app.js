@@ -9,9 +9,6 @@ window.addEventListener("keydown", function (e) {
 
   // console.log("Pressed:",  e.key);
 
-    
-        
-
   const key = document.querySelector(`.key[data-key="${e.key}"]`);
   const audio = document.querySelector(`audio[data-key="${e.key}"]`);
 
